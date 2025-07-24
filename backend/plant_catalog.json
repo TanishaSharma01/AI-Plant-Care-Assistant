@@ -1,25 +1,132 @@
-[{
-  "id": 1,
-  "name": "Peace Lily",
-  "description": "Indoor plant with white blooms.",
-  "care_instructions": {
-    "watering": "Weekly",
-    "light": "Indirect sunlight",
-    "fertilizer": "Once a month"
-  },
-  "image_path": "peace_lily.jpg",
-  "tags": ["indoor", "flowering", "low light"]
-},
-{
-  "id": 1,
+[
+  {
+    "id": 1,
     "name": "Peace Lily",
-    "description": "Indoor plant with white blooms.",
+    "description": "Indoor plant with white blooms. Prefers shade and moist soil.",
     "care_instructions": {
-      "watering": "Weekly",
+      "watering": "Once a week or when soil feels dry",
       "light": "Indirect sunlight",
-      "fertilizer": "Once a month"
+      "fertilizer": "Once a month with balanced houseplant fertilizer"
     },
-    "image_path": "peace_lily.jpg",
-    "tags": ["indoor", "flowering", "low light"]
-}
+    "image_path": "images/peace_lily.jpg",
+    "tags": ["indoor", "flowering", "low light", "easy care"],
+    "common_issues": ["yellow leaves", "brown tips from overwatering"]
+  },
+  {
+    "id": 2,
+    "name": "Snake Plant",
+    "description": "Hardy succulent known for upright sword-like leaves.",
+    "care_instructions": {
+      "watering": "Every 2-3 weeks",
+      "light": "Low to bright indirect light",
+      "fertilizer": "Once every 2 months during growing season"
+    },
+    "image_path": "images/snake_plant.jpg",
+    "tags": ["indoor", "succulent", "low light", "air purifier"],
+    "common_issues": ["root rot from overwatering"]
+  },
+  {
+    "id": 3,
+    "name": "Aloe Vera",
+    "description": "Succulent with medicinal gel, requires well-drained soil.",
+    "care_instructions": {
+      "watering": "Every 3 weeks, less in winter",
+      "light": "Bright, direct sunlight",
+      "fertilizer": "Once in spring with diluted cactus fertilizer"
+    },
+    "image_path": "images/aloe_vera.jpg",
+    "tags": ["medicinal", "succulent", "low maintenance", "outdoor"],
+    "common_issues": ["leaf browning due to overwatering or cold"]
+  },
+  {
+    "id": 4,
+    "name": "Spider Plant",
+    "description": "Fast-growing plant with arching green and white striped leaves.",
+    "care_instructions": {
+      "watering": "Weekly or when top inch of soil is dry",
+      "light": "Indirect sunlight",
+      "fertilizer": "Twice a month during growing season"
+    },
+    "image_path": "images/spider_plant.jpg",
+    "tags": ["indoor", "air purifier", "hanging", "pet-friendly"],
+    "common_issues": ["leaf tips browning due to fluoride in water"]
+  },
+  {
+    "id": 5,
+    "name": "Boston Fern",
+    "description": "Classic fern with feathery fronds. Loves humidity.",
+    "care_instructions": {
+      "watering": "Keep soil consistently moist",
+      "light": "Filtered or indirect light",
+      "fertilizer": "Monthly with liquid fertilizer"
+    },
+    "image_path": "images/boston_fern.jpg",
+    "tags": ["indoor", "humidity-loving", "bathroom plant"],
+    "common_issues": ["frond yellowing due to dry air or underwatering"]
+  },
+  {
+    "id": 6,
+    "name": "Money Plant (Pothos)",
+    "description": "Trailing vine with heart-shaped leaves. Very low maintenance.",
+    "care_instructions": {
+      "watering": "Once a week or when soil dries out",
+      "light": "Low to medium indirect light",
+      "fertilizer": "Every 6 weeks with all-purpose fertilizer"
+    },
+    "image_path": "images/pothos.jpg",
+    "tags": ["indoor", "low light", "easy care", "trailing"],
+    "common_issues": ["leggy growth in low light", "yellow leaves if overwatered"]
+  },
+  {
+    "id": 7,
+    "name": "Areca Palm",
+    "description": "Graceful palm with feathery fronds, good for living rooms.",
+    "care_instructions": {
+      "watering": "Keep soil evenly moist, water when top inch is dry",
+      "light": "Bright indirect light",
+      "fertilizer": "Monthly during spring and summer"
+    },
+    "image_path": "images/areca_palm.jpg",
+    "tags": ["indoor", "tropical", "air purifier", "pet-friendly"],
+    "common_issues": ["leaf tips browning from dry air"]
+  },
+  {
+    "id": 8,
+    "name": "Jade Plant",
+    "description": "Fleshy-leafed succulent that symbolizes good luck.",
+    "care_instructions": {
+      "watering": "Every 2-3 weeks",
+      "light": "Bright, direct sunlight",
+      "fertilizer": "Once in spring with succulent feed"
+    },
+    "image_path": "images/jade_plant.jpg",
+    "tags": ["succulent", "indoor", "feng shui", "low maintenance"],
+    "common_issues": ["leaf drop due to cold or low light"]
+  },
+  {
+    "id": 9,
+    "name": "Rubber Plant",
+    "description": "Glossy large leaves; adds a bold statement indoors.",
+    "care_instructions": {
+      "watering": "When top 1-2 inches of soil are dry",
+      "light": "Bright indirect light",
+      "fertilizer": "Monthly during growing season"
+    },
+    "image_path": "images/rubber_plant.jpg",
+    "tags": ["indoor", "decorative", "large plant"],
+    "common_issues": ["droopy leaves from underwatering or cold"]
+  },
+  {
+    "id": 10,
+    "name": "Lavender",
+    "description": "Fragrant herb with purple flowers, best grown outdoors.",
+    "care_instructions": {
+      "watering": "When soil is dry; avoid overwatering",
+      "light": "Full sunlight",
+      "fertilizer": "Once in spring with low-nitrogen fertilizer"
+    },
+    "image_path": "images/lavender.jpg",
+    "tags": ["outdoor", "flowering", "aromatic", "bee-friendly"],
+    "common_issues": ["root rot in poorly drained soil"]
+  }
 ]

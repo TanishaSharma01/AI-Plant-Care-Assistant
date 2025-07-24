@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Peace Lily",
+  "description": "Indoor plant with white blooms.",
+  "care_instructions": {
+    "watering": "Weekly",
+    "light": "Indirect sunlight",
+    "fertilizer": "Once a month"
+  },
+  "image_path": "peace_lily.jpg",
+  "tags": ["indoor", "flowering", "low light"]
+}

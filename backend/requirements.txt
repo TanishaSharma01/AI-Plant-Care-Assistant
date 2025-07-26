@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+faiss-cpu
+pillow
+transformers
+sentence-transformers
+ollama

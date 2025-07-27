@@ -2,6 +2,14 @@
 
 A sophisticated **AI-powered plant care assistant** that helps users identify plants, get care recommendations, and diagnose plant problems using cutting-edge machine learning technologies.
 
+## 🚀 Tech Stack
+
+- **FastAPI** - High-performance async API framework
+- **SBERT + FAISS** - Semantic embeddings and vector search for intelligent text matching
+- **CLIP + FAISS** - Vision-language model for image-based plant identification  
+- **Ollama** - Local LLM integration for conversational plant advice
+- **PyTorch** - Deep learning framework powering the AI features
+
 ## ✨ Features
 
 ### 🧠 **AI-Powered Search & Recommendations**
@@ -19,14 +27,6 @@ A sophisticated **AI-powered plant care assistant** that helps users identify pl
 - **10 Detailed Plant Profiles** - From beginner-friendly to intermediate care levels
 - **Rich Metadata** - Scientific names, care instructions, common issues, seasonal advice
 - **Smart Filtering** - By care level, pet safety, location, and plant benefits
-
-## 🚀 Tech Stack
-
-- **FastAPI** - High-performance async API framework
-- **SBERT + FAISS** - Semantic embeddings and vector search for intelligent text matching
-- **CLIP + FAISS** - Vision-language model for image-based plant identification  
-- **Ollama** - Local LLM integration for conversational plant advice
-- **PyTorch** - Deep learning framework powering the AI features
 
 ## 📦 Installation
 
@@ -221,5 +221,3 @@ Returns status of:
 ---
 
 **Built with ❤️ for plant lovers everywhere** 🌿
-
-*Powered by state-of-the-art AI to make plant care accessible and enjoyable for everyone.*

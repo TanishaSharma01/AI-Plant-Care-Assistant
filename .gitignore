@@ -1,1 +1,6 @@
 backend/debug_recommend.py
+
+.idea/
+ backend/__pycache__/
+ backend/venv/
+ venv/

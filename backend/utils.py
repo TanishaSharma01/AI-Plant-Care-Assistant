@@ -333,8 +333,12 @@ def recommend_plants_smart(query: str, k: int = 5) -> List[Dict[str, Any]]:
             print(f"✅ Found {len(results)} indoor plants")
             return results[:k]
 
-    # Method 2: General keyword search as fallback
-    print("🔍 Using general keyword search...")
+    # Method 2: Use SBERT semantic search if available, otherwise keyword search
+    if sbert and index_text:
+        print("🔍 Using SBERT semantic search...")
+        return search_plants_by_text_embeddings(query, k)
+    else:
+        print("🔍 Using general keyword search...")
 
     for plant in plant_catalog:
         score = 0

@@ -2,131 +2,954 @@
   {
     "id": 1,
     "name": "Peace Lily",
+    "scientific_name": "Spathiphyllum wallisii",
+    "common_names": [
+      "Peace Lily",
+      "White Sails",
+      "Spathe Flower"
+    ],
     "description": "Indoor plant with white blooms. Prefers shade and moist soil.",
     "care_instructions": {
       "watering": "Once a week or when soil feels dry",
       "light": "Indirect sunlight",
-      "fertilizer": "Once a month with balanced houseplant fertilizer"
+      "fertilizer": "Once a month with balanced houseplant fertilizer",
+      "temperature": "65-80°F (18-27°C)",
+      "humidity": "40-60%",
+      "soil": "Well-draining potting mix",
+      "repotting": "Every 1-2 years or when rootbound"
     },
+    "physical_characteristics": {
+      "mature_size": "1-3 feet tall and wide",
+      "growth_rate": "Moderate",
+      "leaf_type": "Glossy, dark green"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "toxic to cats and dogs",
+      "humans": "mildly toxic if ingested"
+    },
+    "benefits": [
+      "air purifier",
+      "blooms indoors",
+      "low light tolerant"
+    ],
+    "best_location": [
+      "living room",
+      "office",
+      "bedroom"
+    ],
     "image_path": "images/peace_lily.jpg",
-    "tags": ["indoor", "flowering", "low light", "easy care"],
-    "common_issues": ["yellow leaves", "brown tips from overwatering"]
+    "tags": [
+      "indoor",
+      "flowering",
+      "low light",
+      "easy care",
+      "air purifier",
+      "beginner"
+    ],
+    "common_issues": [
+      {
+        "problem": "yellow leaves",
+        "causes": [
+          "overwatering",
+          "aging leaves",
+          "low humidity"
+        ],
+        "solutions": [
+          "reduce watering frequency",
+          "remove yellow leaves",
+          "increase humidity"
+        ]
+      },
+      {
+        "problem": "brown tips",
+        "causes": [
+          "overwatering",
+          "fluoride in water",
+          "low humidity"
+        ],
+        "solutions": [
+          "use filtered water",
+          "trim brown tips",
+          "increase humidity"
+        ]
+      },
+      {
+        "problem": "no flowers",
+        "causes": [
+          "insufficient light",
+          "young plant",
+          "lack of fertilizer"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "be patient",
+          "fertilize monthly"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Begin regular fertilizing, repot if needed",
+      "summer": "Maintain consistent watering, monitor for pests",
+      "fall": "Reduce fertilizing, prepare for slower growth",
+      "winter": "Water less frequently, avoid cold drafts"
+    },
+    "propagation": "Division of root clumps",
+    "origin": "Tropical Americas"
   },
   {
     "id": 2,
     "name": "Snake Plant",
+    "scientific_name": "Sansevieria trifasciata",
+    "common_names": [
+      "Snake Plant",
+      "Mother-in-Law's Tongue",
+      "Viper's Bowstring Hemp"
+    ],
     "description": "Hardy succulent known for upright sword-like leaves.",
     "care_instructions": {
-      "watering": "Every 2-3 weeks",
+      "watering": "Every 2-3 weeks, allow soil to dry completely",
       "light": "Low to bright indirect light",
-      "fertilizer": "Once every 2 months during growing season"
+      "fertilizer": "Once every 2 months during growing season",
+      "temperature": "60-85°F (15-29°C)",
+      "humidity": "30-50% (low humidity preferred)",
+      "soil": "Well-draining cactus/succulent mix",
+      "repotting": "Every 2-3 years or when pot-bound"
     },
+    "physical_characteristics": {
+      "mature_size": "2-4 feet tall, 1-2 feet wide",
+      "growth_rate": "Slow",
+      "leaf_type": "Thick, upright, variegated green"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "mildly toxic to cats and dogs",
+      "humans": "generally safe"
+    },
+    "benefits": [
+      "air purifier",
+      "low maintenance",
+      "drought tolerant",
+      "produces oxygen at night"
+    ],
+    "best_location": [
+      "bedroom",
+      "office",
+      "bathroom",
+      "hallway"
+    ],
     "image_path": "images/snake_plant.jpg",
-    "tags": ["indoor", "succulent", "low light", "air purifier"],
-    "common_issues": ["root rot from overwatering"]
+    "tags": [
+      "indoor",
+      "succulent",
+      "low light",
+      "air purifier",
+      "beginner",
+      "drought tolerant",
+      "low maintenance"
+    ],
+    "common_issues": [
+      {
+        "problem": "root rot",
+        "causes": [
+          "overwatering",
+          "poor drainage"
+        ],
+        "solutions": [
+          "reduce watering",
+          "improve drainage",
+          "repot in fresh soil"
+        ]
+      },
+      {
+        "problem": "soft mushy leaves",
+        "causes": [
+          "overwatering",
+          "cold temperatures"
+        ],
+        "solutions": [
+          "stop watering",
+          "move to warmer location",
+          "remove affected leaves"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume normal watering, light fertilizing",
+      "summer": "Monitor for growth, water as needed",
+      "fall": "Reduce watering frequency",
+      "winter": "Water sparingly, avoid cold drafts"
+    },
+    "propagation": "Leaf cuttings or division",
+    "origin": "West Africa"
   },
   {
     "id": 3,
     "name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "common_names": [
+      "Aloe Vera",
+      "True Aloe",
+      "Medicinal Aloe"
+    ],
     "description": "Succulent with medicinal gel, requires well-drained soil.",
     "care_instructions": {
       "watering": "Every 3 weeks, less in winter",
-      "light": "Bright, direct sunlight",
-      "fertilizer": "Once in spring with diluted cactus fertilizer"
+      "light": "Bright, direct sunlight (6+ hours)",
+      "fertilizer": "Once in spring with diluted cactus fertilizer",
+      "temperature": "60-75°F (15-24°C)",
+      "humidity": "30-40% (low humidity)",
+      "soil": "Cactus/succulent potting mix with excellent drainage",
+      "repotting": "Every 2-3 years"
     },
+    "physical_characteristics": {
+      "mature_size": "1-2 feet tall and wide",
+      "growth_rate": "Slow to moderate",
+      "leaf_type": "Thick, fleshy, serrated edges"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "toxic to cats and dogs",
+      "humans": "safe for topical use, avoid ingesting"
+    },
+    "benefits": [
+      "medicinal properties",
+      "low maintenance",
+      "drought tolerant"
+    ],
+    "best_location": [
+      "kitchen windowsill",
+      "bathroom",
+      "outdoor patio"
+    ],
     "image_path": "images/aloe_vera.jpg",
-    "tags": ["medicinal", "succulent", "low maintenance", "outdoor"],
-    "common_issues": ["leaf browning due to overwatering or cold"]
+    "tags": [
+      "medicinal",
+      "succulent",
+      "low maintenance",
+      "outdoor",
+      "bright light",
+      "beginner"
+    ],
+    "common_issues": [
+      {
+        "problem": "leaf browning",
+        "causes": [
+          "overwatering",
+          "cold temperatures",
+          "too much direct sun"
+        ],
+        "solutions": [
+          "reduce watering",
+          "move to warmer location",
+          "provide partial shade"
+        ]
+      },
+      {
+        "problem": "leaves turning red",
+        "causes": [
+          "too much direct sunlight",
+          "stress"
+        ],
+        "solutions": [
+          "provide partial shade",
+          "maintain consistent care"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume normal watering, move outdoors if desired",
+      "summer": "Water more frequently if outdoors, protect from extreme heat",
+      "fall": "Reduce watering, bring indoors if necessary",
+      "winter": "Water sparingly, protect from cold"
+    },
+    "propagation": "Offsets (pups)",
+    "origin": "Arabian Peninsula"
   },
   {
     "id": 4,
     "name": "Spider Plant",
+    "scientific_name": "Chlorophytum comosum",
+    "common_names": [
+      "Spider Plant",
+      "Airplane Plant",
+      "Spider Ivy",
+      "Ribbon Plant"
+    ],
     "description": "Fast-growing plant with arching green and white striped leaves.",
     "care_instructions": {
       "watering": "Weekly or when top inch of soil is dry",
-      "light": "Indirect sunlight",
-      "fertilizer": "Twice a month during growing season"
+      "light": "Bright, indirect sunlight",
+      "fertilizer": "Twice a month during growing season",
+      "temperature": "65-75°F (18-24°C)",
+      "humidity": "40-50%",
+      "soil": "Well-draining potting mix",
+      "repotting": "Annually or when rootbound"
     },
+    "physical_characteristics": {
+      "mature_size": "12-18 inches tall, 12-24 inches wide",
+      "growth_rate": "Fast",
+      "leaf_type": "Arching, variegated green and white stripes"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "non-toxic to cats and dogs",
+      "humans": "safe"
+    },
+    "benefits": [
+      "air purifier",
+      "fast growing",
+      "produces plantlets",
+      "pet safe"
+    ],
+    "best_location": [
+      "hanging basket",
+      "shelf",
+      "desk",
+      "any bright room"
+    ],
     "image_path": "images/spider_plant.jpg",
-    "tags": ["indoor", "air purifier", "hanging", "pet-friendly"],
-    "common_issues": ["leaf tips browning due to fluoride in water"]
+    "tags": [
+      "indoor",
+      "air purifier",
+      "hanging",
+      "pet-friendly",
+      "beginner",
+      "fast growing"
+    ],
+    "common_issues": [
+      {
+        "problem": "leaf tips browning",
+        "causes": [
+          "fluoride in water",
+          "low humidity",
+          "overfertilizing"
+        ],
+        "solutions": [
+          "use filtered water",
+          "increase humidity",
+          "reduce fertilizer frequency"
+        ]
+      },
+      {
+        "problem": "no plantlets",
+        "causes": [
+          "insufficient light",
+          "young plant",
+          "too much nitrogen"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "be patient",
+          "reduce nitrogen fertilizer"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume regular fertilizing, repot if needed",
+      "summer": "Water regularly, harvest plantlets for propagation",
+      "fall": "Reduce fertilizing, continue regular watering",
+      "winter": "Water less frequently, maintain humidity"
+    },
+    "propagation": "Plantlets (spiderettes)",
+    "origin": "South Africa"
   },
   {
     "id": 5,
     "name": "Boston Fern",
+    "scientific_name": "Nephrolepis exaltata",
+    "common_names": [
+      "Boston Fern",
+      "Sword Fern",
+      "Ladder Fern"
+    ],
     "description": "Classic fern with feathery fronds. Loves humidity.",
     "care_instructions": {
-      "watering": "Keep soil consistently moist",
-      "light": "Filtered or indirect light",
-      "fertilizer": "Monthly with liquid fertilizer"
+      "watering": "Keep soil consistently moist but not soggy",
+      "light": "Bright, indirect light",
+      "fertilizer": "Monthly with diluted liquid fertilizer",
+      "temperature": "60-70°F (15-21°C)",
+      "humidity": "50-80% (high humidity required)",
+      "soil": "Peat-based potting mix with good drainage",
+      "repotting": "Every 1-2 years in spring"
     },
+    "physical_characteristics": {
+      "mature_size": "1-3 feet tall and wide",
+      "growth_rate": "Moderate",
+      "leaf_type": "Feathery, arching fronds"
+    },
+    "care_level": "intermediate",
+    "toxicity": {
+      "pets": "non-toxic to cats and dogs",
+      "humans": "safe"
+    },
+    "benefits": [
+      "air purifier",
+      "high humidity tolerance",
+      "classic beauty",
+      "pet safe"
+    ],
+    "best_location": [
+      "bathroom",
+      "kitchen",
+      "north-facing window",
+      "humidifier area"
+    ],
     "image_path": "images/boston_fern.jpg",
-    "tags": ["indoor", "humidity-loving", "bathroom plant"],
-    "common_issues": ["frond yellowing due to dry air or underwatering"]
+    "tags": [
+      "indoor",
+      "humidity-loving",
+      "bathroom plant",
+      "intermediate",
+      "air purifier",
+      "pet-friendly"
+    ],
+    "common_issues": [
+      {
+        "problem": "frond yellowing",
+        "causes": [
+          "dry air",
+          "underwatering",
+          "natural aging"
+        ],
+        "solutions": [
+          "increase humidity",
+          "water more consistently",
+          "remove yellow fronds"
+        ]
+      },
+      {
+        "problem": "dropping leaflets",
+        "causes": [
+          "low humidity",
+          "temperature stress",
+          "underwatering"
+        ],
+        "solutions": [
+          "increase humidity dramatically",
+          "maintain stable temperature",
+          "keep soil moist"
+        ]
+      },
+      {
+        "problem": "brown, crispy fronds",
+        "causes": [
+          "low humidity",
+          "direct sunlight",
+          "underwatering"
+        ],
+        "solutions": [
+          "use humidifier",
+          "move away from direct sun",
+          "water more frequently"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume fertilizing, increase watering as growth resumes",
+      "summer": "Maintain high humidity, water frequently, protect from heat",
+      "fall": "Reduce fertilizing, continue humidity support",
+      "winter": "Reduce watering slightly, maintain humidity with humidifier"
+    },
+    "propagation": "Division or spores",
+    "origin": "Tropical regions worldwide"
   },
   {
     "id": 6,
     "name": "Money Plant (Pothos)",
+    "scientific_name": "Epipremnum aureum",
+    "common_names": [
+      "Pothos",
+      "Golden Pothos",
+      "Devil's Ivy",
+      "Money Plant"
+    ],
     "description": "Trailing vine with heart-shaped leaves. Very low maintenance.",
     "care_instructions": {
       "watering": "Once a week or when soil dries out",
-      "light": "Low to medium indirect light",
-      "fertilizer": "Every 6 weeks with all-purpose fertilizer"
+      "light": "Low to bright indirect light",
+      "fertilizer": "Every 6 weeks with all-purpose fertilizer",
+      "temperature": "65-85°F (18-29°C)",
+      "humidity": "40-50%",
+      "soil": "Well-draining potting mix",
+      "repotting": "Every 1-2 years"
     },
+    "physical_characteristics": {
+      "mature_size": "6-10 feet long (trailing)",
+      "growth_rate": "Fast",
+      "leaf_type": "Heart-shaped, variegated green and yellow"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "toxic to cats and dogs",
+      "humans": "mildly toxic if ingested"
+    },
+    "benefits": [
+      "air purifier",
+      "low light tolerant",
+      "fast growing",
+      "easy propagation"
+    ],
+    "best_location": [
+      "hanging basket",
+      "shelf",
+      "desk",
+      "bookshelf",
+      "any room"
+    ],
     "image_path": "images/pothos.jpg",
-    "tags": ["indoor", "low light", "easy care", "trailing"],
-    "common_issues": ["leggy growth in low light", "yellow leaves if overwatered"]
+    "tags": [
+      "indoor",
+      "low light",
+      "easy care",
+      "trailing",
+      "beginner",
+      "air purifier",
+      "fast growing"
+    ],
+    "common_issues": [
+      {
+        "problem": "leggy growth",
+        "causes": [
+          "insufficient light",
+          "normal growth pattern"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "prune regularly",
+          "propagate cuttings"
+        ]
+      },
+      {
+        "problem": "yellow leaves",
+        "causes": [
+          "overwatering",
+          "natural aging",
+          "poor drainage"
+        ],
+        "solutions": [
+          "reduce watering frequency",
+          "remove yellow leaves",
+          "improve drainage"
+        ]
+      },
+      {
+        "problem": "small leaves",
+        "causes": [
+          "insufficient light",
+          "lack of nutrients"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "fertilize regularly"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume regular fertilizing, prune for shape",
+      "summer": "Water regularly, monitor for rapid growth",
+      "fall": "Reduce fertilizing, continue regular watering",
+      "winter": "Water less frequently, maintain bright location"
+    },
+    "propagation": "Stem cuttings in water or soil",
+    "origin": "Southeast Asia"
   },
   {
     "id": 7,
     "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "common_names": [
+      "Areca Palm",
+      "Golden Cane Palm",
+      "Butterfly Palm",
+      "Yellow Palm"
+    ],
     "description": "Graceful palm with feathery fronds, good for living rooms.",
     "care_instructions": {
       "watering": "Keep soil evenly moist, water when top inch is dry",
-      "light": "Bright indirect light",
-      "fertilizer": "Monthly during spring and summer"
+      "light": "Bright, indirect light",
+      "fertilizer": "Monthly during spring and summer with palm fertilizer",
+      "temperature": "65-80°F (18-27°C)",
+      "humidity": "40-50%",
+      "soil": "Well-draining palm/potting mix",
+      "repotting": "Every 2-3 years"
     },
+    "physical_characteristics": {
+      "mature_size": "6-8 feet tall indoors, 2-3 feet wide",
+      "growth_rate": "Moderate",
+      "leaf_type": "Feathery, arching fronds"
+    },
+    "care_level": "intermediate",
+    "toxicity": {
+      "pets": "non-toxic to cats and dogs",
+      "humans": "safe"
+    },
+    "benefits": [
+      "air purifier",
+      "tropical appearance",
+      "statement plant",
+      "pet safe"
+    ],
+    "best_location": [
+      "living room",
+      "office",
+      "bright corner",
+      "near window"
+    ],
     "image_path": "images/areca_palm.jpg",
-    "tags": ["indoor", "tropical", "air purifier", "pet-friendly"],
-    "common_issues": ["leaf tips browning from dry air"]
+    "tags": [
+      "indoor",
+      "tropical",
+      "air purifier",
+      "pet-friendly",
+      "intermediate",
+      "statement plant"
+    ],
+    "common_issues": [
+      {
+        "problem": "leaf tips browning",
+        "causes": [
+          "low humidity",
+          "fluoride in water",
+          "overfertilizing"
+        ],
+        "solutions": [
+          "increase humidity",
+          "use filtered water",
+          "reduce fertilizer"
+        ]
+      },
+      {
+        "problem": "yellowing fronds",
+        "causes": [
+          "overwatering",
+          "underwatering",
+          "natural aging"
+        ],
+        "solutions": [
+          "adjust watering schedule",
+          "remove yellow fronds",
+          "improve drainage"
+        ]
+      },
+      {
+        "problem": "slow growth",
+        "causes": [
+          "insufficient light",
+          "rootbound",
+          "lack of nutrients"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "repot if needed",
+          "fertilize regularly"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume fertilizing, increase watering as growth resumes",
+      "summer": "Water regularly, monitor humidity, fertilize monthly",
+      "fall": "Reduce fertilizing, maintain consistent watering",
+      "winter": "Water less frequently, maintain humidity, no fertilizer"
+    },
+    "propagation": "Division of clumps",
+    "origin": "Madagascar"
   },
   {
     "id": 8,
     "name": "Jade Plant",
+    "scientific_name": "Crassula ovata",
+    "common_names": [
+      "Jade Plant",
+      "Money Tree",
+      "Lucky Plant",
+      "Friendship Tree"
+    ],
     "description": "Fleshy-leafed succulent that symbolizes good luck.",
     "care_instructions": {
-      "watering": "Every 2-3 weeks",
-      "light": "Bright, direct sunlight",
-      "fertilizer": "Once in spring with succulent feed"
+      "watering": "Every 2-3 weeks, allow soil to dry completely",
+      "light": "Bright, direct sunlight (4-6 hours daily)",
+      "fertilizer": "Once in spring with diluted succulent fertilizer",
+      "temperature": "65-75°F (18-24°C)",
+      "humidity": "30-50%",
+      "soil": "Cactus/succulent potting mix with excellent drainage",
+      "repotting": "Every 2-3 years"
     },
+    "physical_characteristics": {
+      "mature_size": "3-6 feet tall, 2-3 feet wide",
+      "growth_rate": "Slow",
+      "leaf_type": "Thick, fleshy, oval-shaped"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "mildly toxic to cats and dogs",
+      "humans": "generally safe"
+    },
+    "benefits": [
+      "low maintenance",
+      "feng shui plant",
+      "long-lived",
+      "drought tolerant"
+    ],
+    "best_location": [
+      "south-facing window",
+      "desk",
+      "shelf",
+      "bright room"
+    ],
     "image_path": "images/jade_plant.jpg",
-    "tags": ["succulent", "indoor", "feng shui", "low maintenance"],
-    "common_issues": ["leaf drop due to cold or low light"]
+    "tags": [
+      "succulent",
+      "indoor",
+      "feng shui",
+      "low maintenance",
+      "beginner",
+      "bright light"
+    ],
+    "common_issues": [
+      {
+        "problem": "leaf drop",
+        "causes": [
+          "overwatering",
+          "cold temperatures",
+          "insufficient light"
+        ],
+        "solutions": [
+          "reduce watering",
+          "move to warmer location",
+          "provide more light"
+        ]
+      },
+      {
+        "problem": "wrinkled leaves",
+        "causes": [
+          "underwatering",
+          "hot temperatures"
+        ],
+        "solutions": [
+          "water thoroughly",
+          "move to cooler location"
+        ]
+      },
+      {
+        "problem": "leggy growth",
+        "causes": [
+          "insufficient light",
+          "lack of pruning"
+        ],
+        "solutions": [
+          "move to brighter location",
+          "prune regularly for shape"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume normal watering, light fertilizing",
+      "summer": "Water when dry, protect from extreme heat",
+      "fall": "Reduce watering frequency",
+      "winter": "Water sparingly, protect from cold"
+    },
+    "propagation": "Leaf or stem cuttings",
+    "origin": "South Africa"
   },
   {
     "id": 9,
     "name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "common_names": [
+      "Rubber Plant",
+      "Rubber Tree",
+      "Indian Rubber Bush"
+    ],
     "description": "Glossy large leaves; adds a bold statement indoors.",
     "care_instructions": {
       "watering": "When top 1-2 inches of soil are dry",
-      "light": "Bright indirect light",
-      "fertilizer": "Monthly during growing season"
+      "light": "Bright, indirect light",
+      "fertilizer": "Monthly during growing season with balanced fertilizer",
+      "temperature": "60-80°F (15-27°C)",
+      "humidity": "40-50%",
+      "soil": "Well-draining potting mix",
+      "repotting": "Every 1-2 years"
     },
+    "physical_characteristics": {
+      "mature_size": "6-10 feet tall indoors, 2-3 feet wide",
+      "growth_rate": "Moderate to fast",
+      "leaf_type": "Large, glossy, oval-shaped"
+    },
+    "care_level": "beginner",
+    "toxicity": {
+      "pets": "mildly toxic to cats and dogs",
+      "humans": "mildly toxic, can cause skin irritation"
+    },
+    "benefits": [
+      "air purifier",
+      "statement plant",
+      "low maintenance",
+      "fast growing"
+    ],
+    "best_location": [
+      "living room",
+      "office",
+      "near bright window",
+      "corner statement"
+    ],
     "image_path": "images/rubber_plant.jpg",
-    "tags": ["indoor", "decorative", "large plant"],
-    "common_issues": ["droopy leaves from underwatering or cold"]
+    "tags": [
+      "indoor",
+      "decorative",
+      "large plant",
+      "beginner",
+      "air purifier",
+      "statement plant"
+    ],
+    "common_issues": [
+      {
+        "problem": "droopy leaves",
+        "causes": [
+          "underwatering",
+          "cold temperatures",
+          "shock from moving"
+        ],
+        "solutions": [
+          "water thoroughly",
+          "move to warmer location",
+          "maintain consistent environment"
+        ]
+      },
+      {
+        "problem": "leaf drop",
+        "causes": [
+          "overwatering",
+          "underwatering",
+          "environmental stress"
+        ],
+        "solutions": [
+          "adjust watering schedule",
+          "maintain consistent care",
+          "avoid moving plant"
+        ]
+      },
+      {
+        "problem": "dull leaves",
+        "causes": [
+          "dust accumulation",
+          "insufficient light"
+        ],
+        "solutions": [
+          "wipe leaves regularly",
+          "move to brighter location"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Resume fertilizing, prune for shape if needed",
+      "summer": "Water regularly, wipe leaves clean monthly",
+      "fall": "Reduce fertilizing, continue regular watering",
+      "winter": "Water less frequently, avoid cold drafts"
+    },
+    "propagation": "Stem cuttings with rooting hormone",
+    "origin": "India and Southeast Asia"
   },
   {
     "id": 10,
     "name": "Lavender",
+    "scientific_name": "Lavandula angustifolia",
+    "common_names": [
+      "English Lavender",
+      "True Lavender",
+      "Common Lavender"
+    ],
     "description": "Fragrant herb with purple flowers, best grown outdoors.",
     "care_instructions": {
-      "watering": "When soil is dry; avoid overwatering",
-      "light": "Full sunlight",
-      "fertilizer": "Once in spring with low-nitrogen fertilizer"
+      "watering": "When soil is dry; drought tolerant once established",
+      "light": "Full sunlight (6-8 hours daily)",
+      "fertilizer": "Once in spring with low-nitrogen, slow-release fertilizer",
+      "temperature": "60-70°F (15-21°C), cold hardy to zone 5",
+      "humidity": "30-50% (prefers dry conditions)",
+      "soil": "Well-draining, sandy or gravelly soil, slightly alkaline",
+      "repotting": "Every 2-3 years for container plants"
     },
+    "physical_characteristics": {
+      "mature_size": "1-3 feet tall and wide",
+      "growth_rate": "Moderate",
+      "leaf_type": "Narrow, silvery-green, aromatic"
+    },
+    "care_level": "intermediate",
+    "toxicity": {
+      "pets": "mildly toxic to cats and dogs in large quantities",
+      "humans": "safe, commonly used in cooking and aromatherapy"
+    },
+    "benefits": [
+      "aromatic",
+      "attracts pollinators",
+      "culinary uses",
+      "drought tolerant",
+      "deer resistant"
+    ],
+    "best_location": [
+      "outdoor garden",
+      "sunny patio",
+      "herb garden",
+      "rock garden"
+    ],
     "image_path": "images/lavender.jpg",
-    "tags": ["outdoor", "flowering", "aromatic", "bee-friendly"],
-    "common_issues": ["root rot in poorly drained soil"]
+    "tags": [
+      "outdoor",
+      "flowering",
+      "aromatic",
+      "bee-friendly",
+      "intermediate",
+      "drought tolerant",
+      "herbs"
+    ],
+    "common_issues": [
+      {
+        "problem": "root rot",
+        "causes": [
+          "overwatering",
+          "poor drainage",
+          "heavy clay soil"
+        ],
+        "solutions": [
+          "improve drainage",
+          "reduce watering",
+          "amend soil with sand/gravel"
+        ]
+      },
+      {
+        "problem": "leggy growth",
+        "causes": [
+          "insufficient light",
+          "lack of pruning",
+          "rich soil"
+        ],
+        "solutions": [
+          "ensure full sun",
+          "prune after flowering",
+          "avoid fertilizing"
+        ]
+      },
+      {
+        "problem": "poor flowering",
+        "causes": [
+          "insufficient light",
+          "too much nitrogen",
+          "young plant"
+        ],
+        "solutions": [
+          "ensure full sun exposure",
+          "avoid high-nitrogen fertilizers",
+          "be patient"
+        ]
+      }
+    ],
+    "seasonal_care": {
+      "spring": "Prune lightly, apply slow-release fertilizer",
+      "summer": "Water sparingly, harvest flowers for drying",
+      "fall": "Reduce watering, light pruning after flowering",
+      "winter": "Protect from harsh winds, minimal watering"
+    },
+    "propagation": "Semi-hardwood cuttings or seed",
+    "origin": "Mediterranean region"
   }
 ]

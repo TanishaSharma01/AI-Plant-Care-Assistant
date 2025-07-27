@@ -3,8 +3,9 @@ uvicorn[standard]
 python-multipart
 faiss-cpu
 pillow
-transformers
-sentence-transformers
+transformers>=4.21.0
+sentence-transformers>=2.2.2
 torch
 numpy
 ollama
+huggingface_hub>=0.16.0

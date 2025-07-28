@@ -1,4 +1,4 @@
-# 🌱 AI Plant Care Assistant Backend
+# 🌱 AI Plant Care Assistant 
 
 A sophisticated **AI-powered plant care assistant** that helps users identify plants, get care recommendations, and diagnose plant problems using cutting-edge machine learning technologies.
 
